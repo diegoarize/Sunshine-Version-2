@@ -41,4 +41,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
         android:src="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/forecast"
+        android:id="@+id/forecast"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
